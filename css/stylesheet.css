@@ -41,6 +41,7 @@
     height: 64px;
     font-weight: bolder;
     font-family: Anton;
+    margin: auto;
 }
 
 .heading2 {
@@ -139,8 +140,9 @@
 }
 
 #midgrid {
-    display: inline-block;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    margin: 0;
     /*border-color: white;*/
     /*border: 10px solid white;*/
 
@@ -150,8 +152,26 @@
 #selectedwork {
     display: flex;
     justify-content: center;
+    margin:auto;
+
     /*padding: 50px;*/
 
 }
+
+#2ndgrid {
+    height: 10%;
+    width: 10%;
+    margin: 0;
+}
+
+/*#apple2 {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    width: 0;*/
+/*    flex-direction: column;*/
+/*    align-self: center;*/
+
+/*}*/
+
 
 
