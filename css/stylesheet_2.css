@@ -156,6 +156,7 @@ img.logo {
         text-align: center;
     }
 }
+
 /* medium devices */
 @media (min-width: 768px) {
     .selected-work {
